@@ -7,7 +7,7 @@ transformers>=4.32.0,<4.35.0
 speedtest-cli
 pydantic>=1.10,<2.0  # 2.0 is incompatible with hivemind yet
 hivemind==1.1.10.post2
-tensor_parallel
+tensor_parallel==1.0.23
 humanfriendly
 async-timeout
 cpufeature>=0.2.0; platform_machine == "x86_64"
@@ -19,3 +19,4 @@ Dijkstar
 datasets
 wandb
 scikit-learn
+petals
