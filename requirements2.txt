@@ -3,7 +3,7 @@ bitsandbytes
 accelerate>=0.22.0
 huggingface-hub
 tokenizers
-transformers
+transformers>=4.32.0,<4.35.0
 speedtest-cli
 pydantic>=1.10,<2.0  # 2.0 is incompatible with hivemind yet
 hivemind==1.1.10.post2
